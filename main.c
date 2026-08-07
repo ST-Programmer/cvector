@@ -17,6 +17,7 @@ int main(void)
     }
 
     printf("\n");
+    VecFree(&vec);
 
     return 0;
 }
